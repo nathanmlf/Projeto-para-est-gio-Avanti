@@ -1,0 +1,47 @@
+.publicidade-container {
+  box-sizing: border-box;
+  max-width: 100vw;
+  padding: 0 370px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-self: center;
+  justify-self: center;
+  margin: 80px 0px 60px 0px;
+  height: 750px;
+}
+
+.publicidade-container-imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2c2c2;
+}
+
+.publicidade-imagem {
+  transform: rotate(-7.544deg);
+}
+
+.publicidade-container-texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 22px;
+  padding: 100px 0px 100px 40px;
+}
+
+.publicidade-texto-titulo {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+.publicidade-texto-corpo {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.9px;
+}

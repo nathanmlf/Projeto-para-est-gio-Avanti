@@ -1,0 +1,84 @@
+.cadastro-container {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 330px;
+  margin: 0 auto;
+  padding: 0px 330px;
+  margin: 115px 0px 40px 0px;
+}
+
+.cadastro-title-container {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 24px;
+  text-align: center;
+}
+
+.cadastro-title-detalhe {
+  color: #005cff;
+}
+
+.cadastro-corpo {
+  background-color: #dedede;
+  border-radius: 8px;
+  width: 1260px;
+  height: 176px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.cadastro-input {
+  width: 280px;
+  height: 48px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  border: none;
+}
+
+.cadastro-input::placeholder {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #303030;
+  padding-left: 24px;
+}
+
+.privacidade-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.privacidade-input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+}
+
+.privacidade-label {
+  color: #656565;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.privacidade-link {
+  color: #656565;
+  text-decoration: underline;
+}
+
+.cadastro-botao {
+  padding: 14px 24px;
+  border: none;
+  background-color: #005cff;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 125%;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.lancamentos-container {
+  box-sizing: border-box;
+  width: 100vw;
+  padding: 22px 330px 0px 330px;
+}
+
+.lancamentos-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lancamentos-banner-texto {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.lancamentos-banner-link {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-decoration: underline transparent;
+  transition: 0.3s;
+}
+
+.lancamentos-banner-link:hover {
+  color: #005cff;
+  text-decoration: underline;
+}

@@ -1,0 +1,42 @@
+.banner-container {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 510px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+  background: url("../assets/imagem-banner.jpg") no-repeat, #e6e7e9;
+  background-position: 30% 65%;
+  margin-bottom: 90px;
+}
+
+.banner-container-texto {
+  padding-right: 200px;
+  text-transform: uppercase;
+  font-size: 6.25rem;
+  font-family: "Nunito", sans-serif;
+}
+
+.banner-texto-principal {
+  font-size: 6.25rem;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.banner-texto-super {
+  font-weight: 700;
+}
+
+.banner-texto-itens {
+  font-size: 1.5625rem;
+  letter-spacing: 7.5px;
+  color: #005cff;
+  padding: 12px 0px;
+}
+
+.banner-texto-desconto {
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: #005cff;
+}

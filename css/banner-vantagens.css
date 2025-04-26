@@ -1,0 +1,45 @@
+.vantagens-container {
+  box-sizing: border-box;
+  max-width: 100vw;
+  padding: 40px 370px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 820px;
+  background-color: #dedede;
+}
+
+.vantagens-container-texto {
+  grid-column: 1;
+  padding: 80px 50px 80px 0px;
+}
+
+.vantagens-titulo {
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  padding-bottom: 50px;
+}
+
+.vantagens-marcador-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vantagens-texto {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.9px;
+  padding-left: 20px;
+}
+
+.vantagens-texto-imagem {
+  grid-column: 2;
+}

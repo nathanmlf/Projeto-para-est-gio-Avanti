@@ -1,0 +1,64 @@
+:root {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #fff;
+}
+
+::placeholder {
+  color: #000000;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  transition: 0.3s;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  /* padding: 10px; */
+}
+ul li ul {
+  display: none;
+  position: absolute;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
