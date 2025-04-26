@@ -1,0 +1,162 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.carousel-item {
+  flex: 0 0 20%;
+  padding: 0 10px;
+  min-width: 20%;
+}
+
+.product-card {
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  position: relative;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.new-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #00264e;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.product-info {
+  padding: 15px;
+}
+
+.product-title {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #303030;
+  margin-bottom: 10px;
+}
+
+.price-info {
+  margin-bottom: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #303030;
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.current-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.discount-tag {
+  display: inline-block;
+  background-color: #5ec0be;
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 8px;
+  text-decoration: underline;
+}
+
+.installment {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.parcelamento {
+  font-weight: 700;
+}
+
+.buy-button {
+  width: 100%;
+  background-color: #005cff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+  background-color: rgba(0, 92, 255, 0.8);
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #333;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #333;
+}
